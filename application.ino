@@ -116,7 +116,7 @@ void renderDigit(int score, char team[]) {
     int offset = 0;
 
     if (team == "right") {
-        matrix.setTextColor(matrix.Color333(4,0,7)); // Blue
+        matrix.setTextColor(matrix.Color333(4,0,7)); // Purple
 
         // Cursor offset for the rightmost score
         offset = 17;
