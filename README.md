@@ -21,24 +21,22 @@ Wiring (LED)
 ---
 Wiring between the Spark and 16x32 or 32x32 display is as follows:
 
-```
-Panel Pin	Core Pin	Photon Pin
-----------------------------------
-  GND				GND			GND
-  CLK 				D6          D6
-  OE  				D7          D7
-  LAT 				A4          A4
-  A   				A0          A0
-  B   				A1          A1
-  C   				A2          A2
-  D					A3			A3		//32x32 display only
-  R1				D0			D0
-  G1				D1			D1
-  B1				D2			D2
-  R2				D3			D3
-  G2				D4			D4
-  B2				D5			D5
-```
+|Panel Pin|	Core Pin|	Photon Pin|
+----------|---------|-------------|
+|GND|GND|GND|
+|CLK| D6| D6|
+|OE|D7| D7|
+|LAT| A4| A4|
+|A| A0| A0|
+|B| A1| A1|
+|C| A2| A2|
+|D|A3|A3 (32x32 display only)|
+|R1|D0|	D0|
+|G1|D1|	D1|
+|B1|D2|	D2|
+|R2|D3|	D3|
+|G2|D4|	D4|
+|B2|D5|	D5|
 
 Wiring (Sensor Circuits and Reset Switch)
 ---
